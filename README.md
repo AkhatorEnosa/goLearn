@@ -49,7 +49,7 @@ goLearn/
 ├── lesson2/
 │   └── main.go          # Lesson 2: Variables, types, and formatted output
 └── lesson3/
-    └── (placeholder)    # Lesson 3: Coming soon
+    └── main.go          # Lesson 3: Tip calculator with user input
 ```
 
 ---
@@ -60,6 +60,7 @@ goLearn/
 |--------|------|----------------|
 | **Lesson 1** | `lesson1/main.go` | Package declaration, importing `fmt`, `fmt.Println` for basic output |
 | **Lesson 2** | `lesson2/main.go` | Variable declaration, types (`string`, `int`, `float64`, `bool`), `fmt.Printf` with format verbs |
+| **Lesson 3** | `lesson3/main.go` | User input with `fmt.Scanln`, arithmetic operations, tip calculator |
 
 ---
 
@@ -74,6 +75,10 @@ go run main.go
 
 # Lesson 2
 cd lesson2
+go run main.go
+
+# Lesson 3
+cd lesson3
 go run main.go
 ```
 
@@ -90,6 +95,15 @@ I love to just be.
 Hello, osa!
  Your current level is 2 and your account balance is $100.50.
  Online status: false
+```
+
+**Lesson 3:** (interactive - enter values when prompted)
+```
+Enter Bill Amount: $100
+Enter Tip Percentage: $15
+Enter no. of People: 4
+Your total bill is $115.00, including a $15.00 tip.
+ Each person to pay: $28.75
 ```
 
 ---
