@@ -53,9 +53,9 @@ goLearn/
 ├── lesson4/
 │   └── main.go          # Lesson 4: Conditionals and loops
 ├── lesson5/
-│   └── main.go          # Lesson 5: Slices, maps, and structs
+│   └── main.go          # Lesson 5: For loops (number guessing game)
 ├── lesson6/
-│   └── main.go          # Lesson 6: Functions and pointers
+│   └── main.go          # Lesson 6: Slices (shopping list)
 └── mini-project1/
     └── main.go          # Mini Project 1: Practical application of learned concepts
 ```
@@ -70,8 +70,8 @@ goLearn/
 | **Lesson 2** | `lesson2/main.go` | Variable declaration, types (`string`, `int`, `float64`, `bool`), `fmt.Printf` with format verbs |
 | **Lesson 3** | `lesson3/main.go` | User input with `fmt.Scanln`, arithmetic operations, tip calculator |
 | **Lesson 4** | `lesson4/main.go` | Conditionals (`if/else`, `switch`), loops (`for`, `range`) |
-| **Lesson 5** | `lesson5/main.go` | Slices, maps, structs, and composite types |
-| **Lesson 6** | `lesson6/main.go` | Functions, pointers, and memory references |
+| **Lesson 5** | `lesson5/main.go` | `for` loops, user input, number guessing game |
+| **Lesson 6** | `lesson6/main.go` | Slices, `append`, `range`, dynamic lists |
 | **Mini Project 1** | `mini-project1/main.go` | Practical application combining multiple concepts from previous lessons |
 
 ---
