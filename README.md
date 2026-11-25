@@ -48,8 +48,16 @@ goLearn/
 │   └── main.go          # Lesson 1: Hello World & basic printing
 ├── lesson2/
 │   └── main.go          # Lesson 2: Variables, types, and formatted output
-└── lesson3/
-    └── main.go          # Lesson 3: Tip calculator with user input
+├── lesson3/
+│   └── main.go          # Lesson 3: Tip calculator with user input
+├── lesson4/
+│   └── main.go          # Lesson 4: Conditionals and loops
+├── lesson5/
+│   └── main.go          # Lesson 5: Slices, maps, and structs
+├── lesson6/
+│   └── main.go          # Lesson 6: Functions and pointers
+└── mini-project1/
+    └── main.go          # Mini Project 1: Practical application of learned concepts
 ```
 
 ---
@@ -61,6 +69,10 @@ goLearn/
 | **Lesson 1** | `lesson1/main.go` | Package declaration, importing `fmt`, `fmt.Println` for basic output |
 | **Lesson 2** | `lesson2/main.go` | Variable declaration, types (`string`, `int`, `float64`, `bool`), `fmt.Printf` with format verbs |
 | **Lesson 3** | `lesson3/main.go` | User input with `fmt.Scanln`, arithmetic operations, tip calculator |
+| **Lesson 4** | `lesson4/main.go` | Conditionals (`if/else`, `switch`), loops (`for`, `range`) |
+| **Lesson 5** | `lesson5/main.go` | Slices, maps, structs, and composite types |
+| **Lesson 6** | `lesson6/main.go` | Functions, pointers, and memory references |
+| **Mini Project 1** | `mini-project1/main.go` | Practical application combining multiple concepts from previous lessons |
 
 ---
 
@@ -79,6 +91,22 @@ go run main.go
 
 # Lesson 3
 cd lesson3
+go run main.go
+
+# Lesson 4
+cd lesson4
+go run main.go
+
+# Lesson 5
+cd lesson5
+go run main.go
+
+# Lesson 6
+cd lesson6
+go run main.go
+
+# Mini Project 1
+cd mini-project1
 go run main.go
 ```
 
