@@ -40,23 +40,27 @@ func main() {
 					}
 				}
 			} else {
-				fmt.Print("No tasks yet.")
+				fmt.Println("No tasks yet.\n")
 			}
 		case 3:
 			// Complete task
-			fmt.Print("Complete a task(Input the task number): ")
+			fmt.Println("Complete a task(Input the task number): ")
 			fmt.Scanln(&taskNum)
 
 			if 1 <= taskNum && taskNum <= len(tasks) {
 				done[taskNum-1] = true
+			} else {
+				fmt.Println("Invalid task number.\n")
 			}
 		case 4:
 			// Delete task
-			fmt.Print("Delete a task(Input the task number): ")
+			fmt.Println("Delete a task(Input the task number): ")
 			fmt.Scanln(&taskNum)
 			if 1 <= taskNum && taskNum <= len(tasks) {
 				tasks = append(tasks[:taskNum-1], tasks[taskNum:]...)
 				done = append(done[:taskNum-1], done[taskNum:]...)
+			} else {
+				fmt.Println("Invalid task number.\n")
 			}
 		case 5:
 			fmt.Println("Goodbye!")
