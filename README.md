@@ -56,8 +56,14 @@ goLearn/
 │   └── main.go          # Lesson 5: For loops (number guessing game)
 ├── lesson6/
 │   └── main.go          # Lesson 6: Slices (shopping list)
-└── mini-project1/
-    └── main.go          # Mini Project 1: Practical application of learned concepts
+├── lesson7/
+│   └── main.go          # Lesson 7: Maps (key-value pairs)
+├── lesson8/
+│   └── main.go          # Lesson 8: Package declaration (stub)
+├── mini-project1/
+│   └── main.go          # Mini Project 1: Practical application of learned concepts
+└── mini-project2/
+    └── main.go          # Mini Project 2: Interactive CLI To-Do List Manager
 ```
 
 ---
@@ -72,7 +78,9 @@ goLearn/
 | **Lesson 4** | `lesson4/main.go` | Conditionals (`if/else`, `switch`), loops (`for`, `range`) |
 | **Lesson 5** | `lesson5/main.go` | `for` loops, user input, number guessing game |
 | **Lesson 6** | `lesson6/main.go` | Slices, `append`, `range`, dynamic lists |
+| **Lesson 7** | `lesson7/main.go` | Maps, key-value pairs, counting items |
 | **Mini Project 1** | `mini-project1/main.go` | Practical application combining multiple concepts from previous lessons |
+| **Mini Project 2** | `mini-project2/main.go` | Interactive CLI To-Do List Manager |
 
 ---
 
@@ -105,8 +113,20 @@ go run main.go
 cd lesson6
 go run main.go
 
+# Lesson 7
+cd lesson7
+go run main.go
+
+# Lesson 8
+cd lesson8
+go run main.go
+
 # Mini Project 1
 cd mini-project1
+go run main.go
+
+# Mini Project 2
+cd mini-project2
 go run main.go
 ```
 
