@@ -60,10 +60,17 @@ goLearn/
 │   └── main.go          # Lesson 7: Maps (key-value pairs)
 ├── lesson8/
 │   └── main.go          # Lesson 8: Package declaration (stub)
+├── lesson9/
+│   └── main.go          # Lesson 9: Structs & Pointers
+├── lesson10/
+│   └── main.go          # Lesson 10: Error Handling
 ├── mini-project1/
 │   └── main.go          # Mini Project 1: Practical application of learned concepts
-└── mini-project2/
-    └── main.go          # Mini Project 2: Interactive CLI To-Do List Manager
+├── mini-project2/
+│   └── main.go          # Mini Project 2: Interactive CLI To-Do List Manager
+└── mini-project3/
+    ├── main.go          # Mini Project 3: Personal Expense Tracker (with File Saving)
+    └── expenses.txt     # Sample expenses data file
 ```
 
 ---
@@ -79,8 +86,12 @@ goLearn/
 | **Lesson 5** | `lesson5/main.go` | `for` loops, user input, number guessing game |
 | **Lesson 6** | `lesson6/main.go` | Slices, `append`, `range`, dynamic lists |
 | **Lesson 7** | `lesson7/main.go` | Maps, key-value pairs, counting items |
+| **Lesson 8** | `lesson8/main.go` | Package declaration (stub) |
+| **Lesson 9** | `lesson9/main.go` | Structs, pointers, methods on structs |
+| **Lesson 10** | `lesson10/main.go` | Error handling with `errors` and `fmt.Errorf` |
 | **Mini Project 1** | `mini-project1/main.go` | Practical application combining multiple concepts from previous lessons |
 | **Mini Project 2** | `mini-project2/main.go` | Interactive CLI To-Do List Manager |
+| **Mini Project 3** | `mini-project3/main.go` | Personal Expense Tracker with file saving, structs, maps, and error handling |
 
 ---
 
@@ -121,12 +132,24 @@ go run main.go
 cd lesson8
 go run main.go
 
+# Lesson 9
+cd lesson9
+go run main.go
+
+# Lesson 10
+cd lesson10
+go run main.go
+
 # Mini Project 1
 cd mini-project1
 go run main.go
 
 # Mini Project 2
 cd mini-project2
+go run main.go
+
+# Mini Project 3
+cd mini-project3
 go run main.go
 ```
 
@@ -152,6 +175,26 @@ Enter Tip Percentage: $15
 Enter no. of People: 4
 Your total bill is $115.00, including a $15.00 tip.
  Each person to pay: $28.75
+```
+
+**Lesson 9:**
+```
+Osa - Balance: $370.00
+```
+
+**Lesson 10:**
+```
+Osa - Balance: $370.00
+```
+
+**Mini Project 3:** (interactive - enter values when prompted)
+```
+=== Expense Tracker ===
+1. Add expense
+2. View summary by category
+3. Save to expenses.txt
+4. Exit
+Choose an option: 
 ```
 
 ---
